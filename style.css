@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(./images/bg.JPG.jpg) fixed;
+    background-size:cover ;
+}
+.container{
+    background: #fff;
+    width: 370px;
+    height: 520px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px rgb(0, 0, 0,0.6);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y: scroll;
+    
+}
+/*مش فاهم ال over flowy*/
+.container::-webkit-scrollbar{
+    display: none;
+}
+/*ابحث عنها يا نجم*/
+.container .search-box{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+
+
+.container .search-box input{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+}
+/*مش فاهم ال شادو */
+
+.container .search-box i{
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+.product-list{
+    padding: 20px 0;
+
+}
+.product{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+.product img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+/*مش فاهم ال object */
+.product-list .prodect-details h2{
+    font-size: 20px;
+}
+.product-list .prodect-details h3{
+    font-size: 18px;
+}
+
+.product-list{
+    visibility:  hidden; 
+  
+     /* visibility: visible;
+     visibility: hidden; */
+}
