@@ -83,3 +83,10 @@ body{
      /* visibility: visible;
      visibility: hidden; */
 }
+@media (min-width: 576px) { 
+  .container {
+    width: 60%;
+    height: 60vh;
+  } 
+
+ }
